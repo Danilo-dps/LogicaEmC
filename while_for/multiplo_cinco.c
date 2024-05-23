@@ -5,12 +5,14 @@ int main(){
 	scanf("%d%d", &n, &m);
 	
 	while(n <= m){
-		if(n % 5 == 0){
+	if(n % 5 == 0 && n != m && m >= 10){
 			printf("%d", n);
 			printf("|");
 		}
-		n++;
+	else if(n % 5 == 0){
+		printf("%d", n);
 	}
-	
+		n++;
+	}	
 }
-//erro de apresentação 
+//erro de apresentação corrigido, programa de acordo com os testes de submissão
