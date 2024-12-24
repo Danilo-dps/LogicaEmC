@@ -1,0 +1,7 @@
+*.exe
+# Ignorar a pasta .vscode na raiz do projeto
+/.vscode/
+.vscode
+
+# Ignorar a pasta output na raiz do projeto
+output/
