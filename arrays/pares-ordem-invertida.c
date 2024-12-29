@@ -13,7 +13,7 @@ int main() {
         scanf("%d", &a[i]);
     }
 
-    printf("Imprime os pares, percorrendo em ordem invertida o array\n");
+    printf("Imprime os índices pares, percorrendo em ordem invertida o array\n");
     for (i = TAM - 1; i >= 0; i--){
         
         if(a[i] % 2 == 0){
